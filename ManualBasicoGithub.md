@@ -15,7 +15,9 @@ git commit -m "Mensaje descriptivo del cambio"
 ```
 ### Conectar Con Tu Repositorio :
 ```cmd
-git remote add origin URL-de-tu-Repositorio
+git branch -M main
+git remote add origin https://github.com/DCK222/ManualGithubBasico.git
+git push -u origin main
 ```
 # 2. Actualizar Codigo Subido A Github
 ### Realizar cambios
@@ -23,6 +25,13 @@ git remote add origin URL-de-tu-Repositorio
 git add .
 git commit -m "Mensaje Descriptivo"
 git push
+```
+o
+
+```cmd
+git remote add origin https://github.com/DCK222/ManualGithubBasico.git
+git branch -M main
+git push -u origin main
 ```
 # 3. Actualizar Codigo Bajado (Pull)
 ### Actualizar Codigo Modificado de tu repositorio
